@@ -20,9 +20,7 @@ export function SignIn(){
         <Container>
             <Form>
                 <h1>BENEVENT</h1>
-                <p>Cadastramento de Cestas Básicas - 2023</p>
-
-                <h2>Faça Seu Login</h2>
+                <h2>Preencha os dados para poder acessar</h2>
 
                     <Input
                     placeholder="E-mail"
@@ -40,8 +38,8 @@ export function SignIn(){
 
                     <Button title="Entrar" onClick={handleSignIn}/>
             </Form>
+            <Background />
 
-<Background />
         </Container>
     )
 
