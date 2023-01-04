@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import styled  from 'styled-components';
 
 
@@ -18,7 +17,7 @@ justify-content: space-between;
 padding: 0 80px;
 `;
 
-export const Profile = styled(Link)`
+export const Profile = styled.div`
     display: flex;
     align-items: center;
 
@@ -36,7 +35,7 @@ export const Profile = styled(Link)`
         
             span{
                 font-size: 14px;
-                color: ${({ theme}) => theme.COLORS.WHITE};
+                color: ${({ theme}) => theme.COLORS.BACKGROUND_100};
             }
 
             strong{

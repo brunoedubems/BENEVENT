@@ -31,12 +31,7 @@ justify-content: center;
 
         > h2 {
             font-size: 16px;
-            margin: 18px 0;
-            color: ${({ theme }) => theme.COLORS.WHITE};
-        }
-
-        > p {
-            font-size: 14px;
+            margin: 4px 10px 14px 10px;
             color: ${({ theme }) => theme.COLORS.WHITE};
         }
 
