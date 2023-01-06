@@ -9,12 +9,15 @@ width: 100%;
 
 border-bottom-width: 1px;
 border-bottom-style: solid;
+background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
 display: flex;
 justify-content: space-between;
+align-items: center;
 
 padding: 0 80px;
+
 `;
 
 export const Profile = styled.div`
@@ -35,7 +38,7 @@ export const Profile = styled.div`
         
             span{
                 font-size: 14px;
-                color: ${({ theme}) => theme.COLORS.BACKGROUND_100};
+                color: ${({ theme}) => theme.COLORS.WHITE};
             }
 
             strong{
@@ -58,3 +61,9 @@ export const Logout = styled.button`
     }
 
 `;
+
+export const Menu = styled.ul`
+width: 400px;
+display: flex;
+list-style: none;
+`

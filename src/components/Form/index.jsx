@@ -1,6 +1,6 @@
 import { Container} from './styles';
-
-export function Input({ type, text, name, placeholder, handleOnChange, value }) {
+import { Fragment } from 'react';
+export function Input({ type, text, name, placeholder,icon, handleOnChange, value }) {
 
 return (
     <Container>
