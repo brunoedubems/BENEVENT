@@ -5,7 +5,7 @@ width: 100%;
 height: 100%;
 
 > table{
-  margin: 20px 20px;
+  margin: 20px auto;
   width: 90%;
 
   background-color: ${({ theme}) => theme.COLORS.ORANGE};
