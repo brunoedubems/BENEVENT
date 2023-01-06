@@ -2,7 +2,7 @@
 import { Header } from "../../components/Header";
 import { Input } from '../../components/Form';
 import  { Button } from "../../components/Button";
-import iconSearch from '../../icon-search.svg'
+import iconSearch from '../../assets/icon-search.svg'
 
 export function Cadastro(){//todo componente tem começar com a letra Maiúscula 
 

@@ -18,9 +18,9 @@ return(
             </div>
         </Profile>
          <Menu>
-                <li><ButtonText title="Início" isActive/></li>
+                <li><ButtonText title="Início"/></li>
                 <li><ButtonText title="Cadastrar"/></li>
-                <li><ButtonText title="Buscar"/></li>
+                <li><ButtonText title="Buscar" isActive/></li>
          </Menu>
           
         <Logout>
