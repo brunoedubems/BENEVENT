@@ -7,7 +7,7 @@ import { ButtonText } from '../ButtonText'
 export function Header (){
 return(
     <Container>
-        <Profile>
+        <Profile to="profile">
             <img 
             src="http://github.com/brunoedubems.png" 
             alt="Foto do usuário" />
@@ -16,11 +16,12 @@ return(
                 <span>Bem vindo</span>
                 <strong>Bruno Eduardo Magalhães</strong>
             </div>
-        </Profile>
+        </Profile >
          <Menu>
-                <li><ButtonText title="Início"/></li>
-                <li><ButtonText title="Cadastrar"/></li>
-                <li><ButtonText title="Buscar" isActive/></li>
+                <li><ButtonText to="/" title="Início"/></li>
+                <li><ButtonText to="/register"title="Cadastrar"/></li>
+                <li><ButtonText to="/search"title="Buscar" isActive/></li>
+    
          </Menu>
           
         <Logout>

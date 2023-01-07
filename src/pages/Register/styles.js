@@ -8,7 +8,7 @@ export const Container = styled.div`
     grid-template-areas: 
     "header"
     "content";
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+    background-color: ${({ theme }) => theme.WHITE};
     
     >main{
         grid-area : content;
@@ -32,14 +32,14 @@ export const Container = styled.div`
     margin: 24px;
 }
 
-img{
+.icon{
     height: 40px;
     width:40px ;
 }
 
-button{
+main button{
     width: 200px;
-    margin: 5px 20px;
+  margin-left: 45px;
     align-items: center;
 }
 

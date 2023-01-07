@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled  from 'styled-components';
 
 
@@ -18,9 +19,20 @@ align-items: center;
 
 padding: 0 80px;
 
+
+ a {
+            background: none;
+        color: ${({ theme, isActive}) => isActive ?theme.COLORS.WHITE: theme.COLORS.ORANGE};
+
+        border: none;
+        font-size: 16px;
+        margin: 0 32px;
+}
+
+
 `;
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
     display: flex;
     align-items: center;
 
@@ -67,3 +79,4 @@ width: 400px;
 display: flex;
 list-style: none;
 `
+

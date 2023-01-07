@@ -2,7 +2,6 @@ import {  useState} from 'react';
 import { FiMail, FiLock } from 'react-icons/fi'
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
-
 import { useAuth } from '../../hooks/auth';
 import { Container, Form, Background } from "./styles";
 

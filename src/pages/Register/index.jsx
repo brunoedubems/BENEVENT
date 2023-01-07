@@ -4,11 +4,11 @@ import { Input } from '../../components/Form';
 import  { Button } from "../../components/Button";
 import iconSearch from '../../assets/icon-search.svg'
 
-export function Cadastro(){//todo componente tem começar com a letra Maiúscula 
+export function Register(){//todo componente tem começar com a letra Maiúscula 
 
   return(
     <Container>
-    <Header/>
+      <Header/>
 
     <main>
       <h1>Cadastramento de cesta Básica </h1>
@@ -16,7 +16,7 @@ export function Cadastro(){//todo componente tem começar com a letra Maiúscula
         <div className="pesquisar">
         <Input type="number" text="CPF do Beneficiário" name="cpf" ></Input>
 
-        <img src={iconSearch} alt="ícone de pesquisar" />
+        <img src={iconSearch} alt="ícone de pesquisar" class="icon"/>
 
         </div>
         
@@ -33,8 +33,8 @@ export function Cadastro(){//todo componente tem começar com a letra Maiúscula
          <Input type="text" text="Complemento" name="complemento" ></Input>
          <Input type="text" text="Celular" name="celular" ></Input>
 
-         <Button title="Voltar" />
-         <Button title="Salvar" />
+         <Button title="Voltar" class="buttonBack"/>
+         <Button title="Salvar" class="buttonRegister" />
       </form> 
     </main>
     </Container>
