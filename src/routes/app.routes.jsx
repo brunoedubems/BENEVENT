@@ -11,7 +11,6 @@ export function AppRoutes() {
     <Route path="/search" element={<SearchPerson />} />
     <Route path="/register" element={<Register />} />
     <Route path="/profile" element={<Profile />} />
-    {/* <Route path="/signin" element={<SignIn />} /> */}
     </Routes>
 
   )}

@@ -7,7 +7,7 @@ import { ButtonText } from '../ButtonText'
 export function Header (){
 return(
     <Container>
-        <Profile to="profile">
+        <Profile to="/profile">
             <img 
             src="http://github.com/brunoedubems.png" 
             alt="Foto do usuário" />
